@@ -1,0 +1,60 @@
+html {
+	background: lightblue;
+}
+body {
+	width: 900px;
+	background: white;
+	border: 1px solid #2c3e50;
+	margin: 20px auto;
+}
+h1 {
+	padding: 10px;
+	font-size: 21px;
+	background: yellow;
+	margin: 0;
+	color: #fff;
+}
+ul.list {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+}
+form {
+	margin: 20px;
+}
+form label {
+	display: block;
+	margin-top: 8px;
+	color: #555;
+}
+input[type=text], input [type=password],textarea, select {
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #ddd;
+	padding: 6px;
+	width: 300px;
+	background: #fff;
+}
+textarea {
+	height: 100px;
+}
+input[type=submit] {
+	padding: 10px 24px;
+	margin-right: 10px;
+}
+ul.menu {
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: blue;
+}
+ul.menu li {
+	float: left;
+	border: 1px solid black;
+}
+ul.menu a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	display: block;
+}

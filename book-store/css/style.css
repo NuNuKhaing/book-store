@@ -1,0 +1,119 @@
+html {
+	background: #898888;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 900px;
+	margin: 20px auto;
+	border: 1px solid #3498db;
+	background: white;
+}
+h2 {
+	padding: 10px;
+	background: #3498db;
+	margin: 0;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+} 
+a:hover {
+	color: red;
+}
+.info {
+	background: lightblue;
+	padding: 8px;
+	text-align: right;
+}
+.info a {
+	color: white;
+	font-size: 20px;
+	border-bottom: 1px dotted black;
+}
+.sidebar {
+	float: left;
+	width: 240px;
+}
+.cats{
+	list-style: none;
+	padding: 0;
+}
+.cats li a {
+	display: block;
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+}
+.cats li a:hover {
+	background: #efefef;
+}
+.main {
+	float: right;
+	width: 660px;
+	background: #fff;
+}
+.books {
+	margin: 15px;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+}
+.books li {
+	width: 190px;
+	float: left;
+	text-align: center;
+	height: 240px;
+	margin: 20px 10px;
+	font-size: 15px;
+}
+.books b {
+	display: block;
+	margin: 15px 0;
+	overflow: hidden;
+}
+.books i {
+	color: red;
+}
+a.add-to-cart {
+	font-size: 16px;
+	display: block;
+	background: black;
+	color: white;
+	padding: 5px 0;
+	margin: 5px 30px;
+}
+a.del {
+	color: blue;
+}
+.footer {
+	clear: both;
+	text-align: center;
+	padding: 8px;
+	background: #6d6f96;
+	color: white;
+}
+.detail {
+	/*padding: 20px;*/
+	background: white;
+} 
+.detail img {
+    width: 900px;
+    height: auto;
+}
+.detail .back {
+	float: right;
+}
+a.add-to-cart { 
+	font-size: 13px; 
+	display: block; 
+	background: #1ABC9C; 
+	color: #fff; 
+	padding: 5px 0; 
+	margin: 5px 30px;
+}
+.detail a.add-to-cart { 
+	margin: 0; 
+	width: 160px; 
+	text-align: center; 
+	padding: 10px 0; 
+}  
